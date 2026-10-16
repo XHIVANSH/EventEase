@@ -1,7 +1,7 @@
-# The 5 mandatory prompts and the agent's ACTUAL replies are :
+## EventEase Test Prompts: 5 mandatory prompts and the agent's ACTUAL replies are :
 
 ## Prompt1: What tech events are happening tomorrow with seats left?
-Actual reply:
+**Actual reply:**
 You: What tech events are happening tomorrow with seats left?
 
 EventEase: Here are the Tech events with seats available tomorrow (Saturday, 2026-10-17):
@@ -14,7 +14,7 @@ EventEase: Here are the Tech events with seats available tomorrow (Saturday, 202
 Let me know if you'd like to register for any of these!
 
 ## Prompt2: Register me (riya@abc.edu) for the Hackathon and the Robo Race.
-Actual reply:
+**Actual reply:**
 You: Register me (riya@abc.edu) for the Hackathon and the Robo Race
 
 EventEase: Here is a preview of your requested registrations for **Riya** (riya@abc.edu):
@@ -54,7 +54,7 @@ EventEase: You have been successfully registered for both events! Here are your 
 Have a great time at the fest! Let me know if you need anything else.
 
 ## Prompt3: Cancel my Robo Race registration.
-Actual reply:
+**Actual reply:**
 You: Cancel my Robo Race registration.
 
 EventEase: Here is the preview for cancelling your registration:
@@ -73,7 +73,7 @@ EventEase: Your registration for **Robo Race** (Ticket: `FEST-T7-0051`) has been
 Let me know if you need help with anything else!
 
 ## Prompt4: (Organiser) Check in ticket FEST-T7-0042.
-Actual reply:
+**Actual reply:**
 === EventEase - College Fest Assistant ===
 Organiser PIN: 12345
 
@@ -86,14 +86,14 @@ Ticket FEST-T7-0042 for Nisha has been successfully checked in for AI Quiz (2026
 
 
 ## Prompt5: (Organiser) Which event has the longest waitlist?
-Actual reply:
+**Actual reply:**
 You: Which event has the longest waitlist?
 
 EventEase: The event with the longest waitlist is Capture the Flag (TECH category), which currently has 4 participants on the waitlist.
 
 ## 6. Business rule violation blocked
 Steps: register riya@abc.edu for the Hackathon, then ask for Code Sprint (times overlap).
-Actual reply:
+**Actual reply:**
 You: register riya@abc.edu for the Hackathon, then ask for Code Sprint (times overlap).
 
 EventEase: Hello! I am EventEase, your assistant for the college fest.
