@@ -1,0 +1,22 @@
+{
+  "name": "eventease",
+  "version": "1.0.0",
+  "description": "College fest event registration AI agent (LangChain.js + Gemini + SQLite)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "seed": "node db/seed.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@langchain/core": "latest",
+    "@langchain/google-genai": "latest",
+    "@langchain/langgraph": "latest",
+    "better-sqlite3": "latest",
+    "dotenv": "latest",
+    "langchain": "latest",
+    "zod": "latest"
+  },
+  "license": "MIT"
+}
