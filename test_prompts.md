@@ -1,6 +1,6 @@
-The 5 mandatory prompts and the agent's ACTUAL replies are :
+# The 5 mandatory prompts and the agent's ACTUAL replies are :
 
-1. What tech events are happening tomorrow with seats left?
+## Prompt1: What tech events are happening tomorrow with seats left?
 Actual reply:
 You: What tech events are happening tomorrow with seats left?
 
@@ -13,7 +13,7 @@ EventEase: Here are the Tech events with seats available tomorrow (Saturday, 202
 
 Let me know if you'd like to register for any of these!
 
-2. Register me (riya@abc.edu) for the Hackathon and the Robo Race.
+## Prompt2: Register me (riya@abc.edu) for the Hackathon and the Robo Race.
 Actual reply:
 You: Register me (riya@abc.edu) for the Hackathon and the Robo Race
 
@@ -53,7 +53,7 @@ EventEase: You have been successfully registered for both events! Here are your 
 
 Have a great time at the fest! Let me know if you need anything else.
 
-3. Cancel my Robo Race registration.
+## Prompt3: Cancel my Robo Race registration.
 Actual reply:
 You: Cancel my Robo Race registration.
 
@@ -72,7 +72,7 @@ EventEase: Your registration for **Robo Race** (Ticket: `FEST-T7-0051`) has been
 
 Let me know if you need help with anything else!
 
-4. (Organiser) Check in ticket FEST-T7-0042.
+## Prompt4: (Organiser) Check in ticket FEST-T7-0042.
 Actual reply:
 === EventEase - College Fest Assistant ===
 Organiser PIN: 12345
@@ -85,13 +85,13 @@ EventEase: Hello! I am EventEase.
 Ticket FEST-T7-0042 for Nisha has been successfully checked in for AI Quiz (2026-10-17 at 15:00).
 
 
-5. (Organiser) Which event has the longest waitlist?
+## Prompt5: (Organiser) Which event has the longest waitlist?
 Actual reply:
 You: Which event has the longest waitlist?
 
 EventEase: The event with the longest waitlist is Capture the Flag (TECH category), which currently has 4 participants on the waitlist.
 
-6. Business rule violation blocked
+## 6. Business rule violation blocked
 Steps: register riya@abc.edu for the Hackathon, then ask for Code Sprint (times overlap).
 Actual reply:
 You: register riya@abc.edu for the Hackathon, then ask for Code Sprint (times overlap).
